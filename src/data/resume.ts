@@ -8,6 +8,7 @@ export const profile = {
   phone: "080-684-5221",
   phoneHref: "tel:0806845221",
   email: "srattra321@gmail.com",
+  resumePdf: "/Srattra-Songrit-Resume.pdf",
   summary: {
     en: "My name is Srattra Songrit, and I am 24 years old. I am seeking a Web Developer position, with a strong interest in Frontend, Backend, and Full-Stack Development. I am eager to learn new technologies, improve my skills, solve problems, and contribute to developing high-quality software.",
     th: "สวัสดีครับ ผมมีความสนใจและมุ่งมั่นในการทำงานด้านการพัฒนาเว็บไซต์ ทั้งฝั่ง Frontend, Backend และ Full-Stack Development พร้อมเรียนรู้เทคโนโลยีใหม่ ๆ พัฒนาทักษะอย่างต่อเนื่อง แก้ไขปัญหาทางเทคนิค และมีส่วนร่วมในการพัฒนาซอฟต์แวร์ที่มีคุณภาพ เพื่อให้ระบบสามารถทำงานได้อย่างมีประสิทธิภาพและตอบโจทย์ความต้องการของผู้ใช้งาน",

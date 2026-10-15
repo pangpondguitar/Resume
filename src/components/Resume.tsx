@@ -155,13 +155,15 @@ export default function Resume({ photo }: { photo: string | null }) {
                 </button>
               ))}
             </div>
-            <button
-              onClick={() => window.print()}
-              className="hidden items-center gap-1.5 rounded-full border border-line bg-surface px-3.5 py-1.5 text-xs font-semibold text-white transition hover:border-accent sm:flex"
+            <a
+              href={profile.resumePdf}
+              download
+              className="flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1.5 text-xs font-semibold text-white transition hover:border-accent sm:px-3.5"
             >
               <Icon name="download" className="h-3.5 w-3.5" />
-              {t(ui.print)}
-            </button>
+              <span className="hidden sm:inline">{t(ui.print)}</span>
+              <span className="sm:hidden">PDF</span>
+            </a>
           </div>
         </nav>
       </header>
